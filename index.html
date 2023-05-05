@@ -76,6 +76,19 @@
 
 
     <!-- Initialize Swiper -->
-
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        slidePerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        keyboard: {
+          enabled: true,
+        },
+      navigation: {
+        nextEl: ".button-next",
+        prevEl: ".button-prev",
+      },
+      })
+    </script>
   </body>
 </html>
